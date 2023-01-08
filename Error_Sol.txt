@@ -1,0 +1,20 @@
+파이썬 환경변수 설정 
+C:\Users\wndel\AppData\Local\Programs\Python\Python311
+C:\Users\wndel\AppData\Local\Programs\Python\Python311\Scripts
+
+이 시스템에서 스크립트를 실행할 수 없으므로 파이참 
+=> 관리자 모드로 PowerShell 실행 이후 gethelp Set-ExecutionPolicy & Set-ExecutionPolicy RemoteSigned
+
+
+
+git init
+git remote -v 확인 => git remote add origin https://github.com/qortmdejr/Python_40.git
+
+git pull origin main
+=>  invalid path : Windows와 mac의 특수문자 형식으로 인한 오류 발생시
+=>  git config core.protectNTFS false
+=> git checkout -f main 
+
+git branch - 브랜치 확인
+git checkout 변경할 브랜치
+git branch -m 변경할 이름 
