@@ -36,3 +36,9 @@ $ git push origin --delete W_Python_40 - 브랜치 삭제
 $ git checkout -p origin/MPython40 Error_Sol.txt - 파일 머지하기(다른 브랜치에서 파일 가져오기)
 
 
+저장소 파일 가져오기
+git pull origin WPython40
+=>Already up to date 
+$ git fetch --all
+$ git reset --hard origin/master -브랜치 강제 리셋
+해결.. 
