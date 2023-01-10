@@ -18,3 +18,10 @@ git pull origin main
 git branch - 브랜치 확인
 git checkout 변경할 브랜치
 git branch -m 변경할 이름 
+
+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 - 토큰 인증
+
+$ git fetch origin-fetch를 통해 origin의 내용을 받아온다.
+$ git checkout -t origin/WPython40 - 원격 저장소의 브랜치를 가져온다
+$ git push origin --delete W_Python_40 - 브랜치 삭제
+$ git checkout -p MPython40 Error_Sol.txt - 파일 머지하기(파일 가져오기)
