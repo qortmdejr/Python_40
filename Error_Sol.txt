@@ -8,19 +8,7 @@ C:\Users\wndel\AppData\Local\Programs\Python\Python311\Scripts
 
 
 git init
-git remote -v 확인 => git remote add origin https://github.com/qortmdejr/Python_40.git
-
-git pull origin main
-=>  invalid path : Windows와 mac의 특수문자 형식으로 인한 오류 발생시
-=>  git config core.protectNTFS false
-=> git checkout -f main 
-
-git branch - 브랜치 확인
-git checkout 변경할 브랜치
-git branch -m 변경할 이름 
-git remote update - 브랜치 업데이트
-git branch -d <branchname> -브랜치 삭제
-git branch -r 브랜치 목록 조회
+git remote -v 확인 =>  
 git fetch <remote> <branch> remote branch의 최신이력들을 다운로드 현재 작업중인 working area에 영향X
 
 git ls-files 깃 파일 조회
